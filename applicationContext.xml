@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean
+            id="myTeacher"
+            class="Lesson2.MathTeacher">
+    </bean>
+<!--    <bean id="myAnimal" class="Lesson2.HomeWork.Dog" >-->
+<!--        <constructor-arg index="0" value="Max"/>-->
+<!--    </bean>-->
+    <bean
+            id="myAnimal1"
+            class="Lesson2.HomeWork.Dog">
+
+        <constructor-arg value="Max"/>
+    </bean>
+    <bean
+            id="myAnimal"
+            class="Lesson2.HomeWork.Mouse">
+    </bean>
+
+</beans>
